@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-DataAnalysis.StartBackgroundService-EE2663B2-8905-4CDE-9C25-30760EFD0AB8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAnalysis.Aplication\DataAnalysis.Aplication.csproj" />
+    <ProjectReference Include="..\DataAnalysis.Domain\DataAnalysis.Domain.csproj" />
+  </ItemGroup>
+</Project>
